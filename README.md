@@ -1,1 +1,1 @@
-# Ajax-Product-Filter
+# Ajax Product Filter
