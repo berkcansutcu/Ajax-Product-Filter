@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.product {
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.product:hover {
+  border-radius: 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product:hover .productImage {
+  border: 0;
+}
+
+.product:hover .add {
+  opacity: 1;
+}
+
+.productTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: -0.5px;
+}
+
+.title {
+  min-height: 100px;
+}
+
+.productImage {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.price {
+  color: green;
+}
+
+.add {
+  opacity: 0;
+}
+
+.card-header {
+  text-align: center !important;
+}
+/*# sourceMappingURL=style.css.map */

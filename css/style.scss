@@ -1,0 +1,52 @@
+* {
+    padding : 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 250, 250)
+}
+
+.product{
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover{
+        border-radius: 25px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .productImage{
+            border: 0;
+        }
+        .add{
+            opacity: 1;
+        }
+    }
+
+}
+
+.productTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: -0.5px;
+}
+
+.title{
+    min-height: 100px;
+
+}
+
+.productImage{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.price{
+    color: green;
+}
+
+.add{
+    opacity: 0;
+}
+
+.card-header{
+    text-align: center !important;
+}
